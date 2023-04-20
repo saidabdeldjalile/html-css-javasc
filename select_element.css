@@ -1,0 +1,27 @@
+h1 {
+    color:red;
+}/*rendue 1*/
+p{
+    color:red;
+}/*rendue 2*/
+h1{
+    color:red;
+}
+h2 {
+    color: blue;
+}/*rendue 3*/
+h2 {
+    color: red;
+}/*rendue 4*/
+h1,h2,p{
+    color: red;
+}/*rendue 5*/
+h1 {
+    color:red;
+}
+h2 {
+    color: red;
+}
+p{
+    color:red;
+}/*rendue 6*/

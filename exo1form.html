@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+<body>
+<label for="nom"> Nom:</label><br><br>
+<input type="text" name="nom"/><br><br>
+<label for="nom"> Prenom:</label>
+<input type="text" name="prenom"/><br><br>
+<label for="nom"> Tel:</label>
+<input type="tel" name="phone" placeholder="saisir un tel"
+pattern="[0][0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"/><br><br>
+<label for="nom"> email:</label>
+<input type="email" name="email"/><br><br>
+<label for="nom"> Date:</label>
+<input type="date" name="mydate" value="2018-07-22"
+min="2018-01-01" max="2018-12-31"><br><br>
+<label for="nom"> password:</label>
+<input type="password" name="pwd"/><br><br>
+<label for="nom"> valeur:</label>
+<input type="number" name="nbr_participant" min="0"max="150"/><br><br>
+<textarea name="monParag" rows="10" cols="20">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa architecto omnis adipisci natus rem explicabo ex iure expedita, deleniti porro neque ipsam, iste nisi. Enim nulla quo suscipit ipsa deserunt.
+
+</textarea><br><br>
+<label for="genre"> Genre:</label>
+<input type="radio" id="genreHomme"  name="genre" value="homme"/>
+<label for="genreHomme">Homme </label><br><br>
+<input type="radio" id="genreFemme"  name="genre" value="femme"/>
+<label for="genreFemme">femme </label><br><br>
+<label for="nom"> Mobilite:</label>
+<input type="checkbox" id="vehicul1"  name="vehicule1" value="val1" checked/>
+<label for="vehicul1">j'ai une voiture </label><br><br>
+<input type="checkbox" id="vehicul2"  name="vehicule2" value="val2" checked/>
+<label for="vehicule2">j'ai un moto </label><br><br>
+<input type="checkbox" id="vehicul3"  name="vehicule3" value="val3" checked/>
+<label for="vehicule3">j'ai un velo </label><br><br>
+<input list="navigateur" name="monNavigateur">
+<datalist id="navigateur">
+<option value="chrome"></option>
+<option value="firefox"></option>
+<option value="InternetExplorer"></option>
+<option value="Opera"></option>
+<option value="Safari"></option>
+</datalist><br><br>
+<select name="cars">
+    <option value="volvo">volvo</option>
+    <option value="Mercedes">mercedes</option>
+    <option value="saab">saab</option>
+    <option value="Audi">audi</option>
+</select><br><br>
+<select name="cars[]" multiple>
+    <option value="volvo">volvo</option>
+    <option value="Mercedes">mercedes</option>
+    <option value="saab">saab</option>
+    <option value="Audi">audi</option>
+</select><br><br>
+
+    <fieldset>
+        <legend>Coordonees</legend>
+        <label for="fname">Nom: </label>
+        <input type="text" id="fname"  name="fname" /><br><br>
+        <label for="lname">Prenom: </label>
+        <input type="text" id="lname"  name="lname" /><br><br>
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

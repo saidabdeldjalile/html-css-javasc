@@ -1,0 +1,15 @@
+div p {
+    color: red;
+}/*rendu 1*/
+div #class1{
+    color: red;
+}/*rendu 1*/
+div  {
+    color: red;
+}/*rendu 3*/
+h2{
+    color: red;
+}/*rendu 4*/
+div h2{
+    color: red;
+}/*rendu 5*/

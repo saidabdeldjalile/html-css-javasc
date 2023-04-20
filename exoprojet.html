@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>project</title>
+    <link rel="stylesheet" href="projet.css">
+    
+    
+</head>
+<body style="background-color: #90A1F1; border-spacing: 0px;">
+  <form>
+    <div style="display: flex; justify-content: center; align-items: center; height: 200px;" >
+        <div style="width: 50%; background-color: white;text-align:center;border-radius: 20px;padding-left: 20px;"><img src="PROJET.PNG"> </div>
+      </div><br>
+
+ 
+
+      <div style="display: flex; justify-content: center; align-items: center; height: 200px;" >
+        <div style="width: 50%; background-color: white; text-align: center;border-radius: 20px;padding-top: 20px;padding-left: 20px;margin: 15px;">
+            <h1>Tp4-1:Fiche Projet de fin d'etudes (Licence/Master),Filier Informatique</h1><hr>
+            <p>le nom et la photo associes a votre compte Google seront enregistres lorsque vous impoterez des fichier que vous enverrez ce formulaire.Votre adresse e-mail ne fait pas partie de votre reponse.<br>
+              <p1 style="color: red;">*obligatoire</p1>
+
+            </p><br>
+        </div>
+      </div><br>
+      
+
+      <div style="display: flex; justify-content: center; align-items: center; height: 150px;" >
+        <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+          <label for="nom" id="label1"> Nom:<p1 style="color: red;">*</p1></label><br><br>
+          <input type="text" name="nom"id="textlibre"placeholder="votre reponse"/><br><br> </div>
+      </div>
+    </div><br>
+
+
+      <div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+        <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+          <label for="prenom"class="label1"> Prenom:<p1 style="color: red;">*</p1></label><br><br>
+          <input type="text" name="prenom" id="textlibre"placeholder="votre reponse"/><br><br>
+      </div>
+    </div><br>
+
+
+      <div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+        <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+          <label for="mat"class="label1"> Matricule:<p1 style="color: red;">*</p1></label><br><br>
+          <input type="text" name="matricule"id="textlibre" placeholder="votre reponse"/><br><br>
+      </div>
+    </div><br>
+
+
+    <div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+      <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+        <label for="email" class="label1"> E-mail:<p1 style="color: red;">*</p1></label><br><br>
+<input type="email" name="email"id="textlibre"><br><br>
+    </div>
+  </div><br>
+
+
+  <div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+    <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+      <label for="nom"class="label1"> Telephone:<p1 style="color: red;">*</p1></label><br><br>
+      <input type="tel" id="textlibre" name="phone" placeholder="saisir un tel"
+      pattern="[0][0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"/><br><br>
+    
+  </div>
+</div><br>
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 200px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="palier"class="label1"> Palier:<p1 style="color: red;">*</p1></label><br><br>
+    <input type="radio" id="palierlicence"  name="choix" value="licence"/>
+    <label for="palier">licence </label><br><br>
+    <input type="radio" id="paliermaster"  name="choix" value="master"/>
+    <label for="paliermaster">master </label><br><br>
+</div>
+</div><br>
+
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="spec"class="label1"> Votre Specialite:<p1 style="color: red;">*</p1></label><br><br>
+    <select name="Specialite"id="sa" placeholder="selectionner votre Specialite">
+      <option value="isil">isil</option>
+      <option value="Acad">acad</option>
+      <option value="Gtr">gtr</option>
+  </select><br><br>
+</div>
+</div><br>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 200px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="genre"class="label1"> Type du projet:<p1 style="color: red;">*</p1></label><br><br>
+    <input type="radio" id="projetint"  name="inter" value="interne"/>
+    <label for="projetint">Intern </label><br><br>
+    <input type="radio" id="projetext"  name="inter" value="externe"/>
+    <label for="projetext">Extern </label><br><br>
+  </select><br><br>
+</div>
+</div><br>
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 450px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="nom"class="label1"> Domaine:<p1 style="color: red;">*</p1></label><br><br>
+<input type="checkbox" id="domaine1"  name="domaine" value="val1" />
+<label for="domaine1">Genie logiciel,System d'information et Base de donnee </label><br><br>
+<input type="checkbox" id="domaine2"  name="domaine" value="val2" />
+<label for="domaine2">Resaux Securite,Resaux Mobiles et Systeme d'Exploitation </label><br><br>
+<input type="checkbox" id="domaine3"  name="domaine" value="val3" />
+<label for="domaine3">Intelligence Artificielle et Meta Heurisitiques </label><br><br>
+<input type="checkbox" id="domaine4"  name="domaine" value="val4" />
+<label for="domaine4">Developpement Web et Mobile</label><br><br>
+<input type="checkbox" id="domaine5"  name="domaine" value="val5" />
+<label for="domaine5">Architecture</label><br><br>
+<input type="checkbox" id="domaine6"  name="domaine" value="val6" />
+<label for="domaine6">Vision et Imagine </label><br><br>
+<input type="checkbox" id="domaine7"  name="domaine" value="val7" />
+<label for="domaine7">Informatique Theorique </label><br><br>
+<input type="checkbox" id="domaine8"  name="domaine" value="val8" />
+<label for="domaine8">Bioinformatique</label><br><br>
+
+</div>
+</div><br>
+
+
+<div style="display: flex; justify-content: center; align-items: center; height:100px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="nom"class="label1"> Intitule du projet:<p1 style="color: red;">*</p1></label><br><br>
+    <input type="text" name="init"id="textlibre"placeholder="votre reponse"/><br><br> </div>
+</div>
+</div><br>
+
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+  <div style="width: 50%; background-color: white; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <label for="nom" class="label1"> Resume du projet:<p1 style="color: red;">*</p1></label><br><br>
+    <input type="text" id="textlibre" name="resum"placeholder="votre reponse"  /><br><br> </div>
+</div>
+</div><br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100px;" >
+  <div style="width: 50%; background-color: #90A1F1; text-align: left;border-radius: 20px;padding-top: 20px;border-spacing: 10px;padding-left: 20px;margin: 15px;">
+    <div class="button-container">
+      <button type="submit" class="button">Envoyer</button>
+      <button type="reset" id="effacer" class="button">Effacer le formulaire</button>
+    </div>
+
+
+</div>
+</div><br>
+</form>
+</body>
+
+
+</html>
